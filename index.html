@@ -15,10 +15,10 @@
   <!-- header -->
    
   <!-- header -->
-  <header class="flex justify-around items-center bg-white h-28 w-full mx-auto">
-    <img src="./image/logo.webp" alt="">
+  <header class="flex justify-around items-center bg-white h-28 md:w-full mx-auto">
+    <img class="md:ml-0 ml-16" src="./image/logo.webp" alt="">
     <nav>
-      <ul class="text-2xl font-xs gap-10 leading-20 hidden md:flex font-serif">
+      <ul class="text-2xl font-xs gap-4 leading-20 hidden md:flex font-serif md:ml-0 ml-4">
         <li class="hover:text-pink-600"><a href="#">HOME</a></li>
         <li  class="hover:text-pink-600"><a href="#">SHOP</a></li>
         <li  class="hover:text-pink-600"><a href="#">ABOUT</a></li>
@@ -27,13 +27,13 @@
       </ul>
      </nav>
      <div>
-      <div class="flex justify-between gap-4">
+      <div class="flex justify-between gap-4 md:ml-0 ml-20">
         <i class="fa fa-search text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
         <i class="fa fa-user-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
         <i class="fa fa-star-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
         <i class="fa fa-envelope-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
-      <div class="dropdown dropdown-end block md:hidden">
-        <div tabindex="0" role="button" class="btn m-1"><i class="fa fa-bars md:ml-0 ml-5 " aria-hidden="true"></i></div>
+      <div class="dropdown dropdown-end block md:hidden md:ml-0 ml-28">
+        <div tabindex="0" role="button" class="btn m-1"><i class="fa fa-bars  " aria-hidden="true"></i></div>
         <ul tabindex="0" class="dropdown-content font-bold menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow absolute right-0">
           <li><a href="#">HOME</a></li>
           <li><a href="#">SHOP</a></li>
@@ -48,10 +48,10 @@
   </header>
   <!-- hero area -->
    <section class="md:mx-auto">
-    <div class="md:flex flex-wrap md:flex-nowrap md:w-full md:h-[800px]  h-[1000px]">
-      <div class="bg-[#ecf4f4] md:w-[800px] md:h-[750px]" >
+    <div class="md:flex flex-wrap md:flex-nowrap md:w-full md:h-[800px]  h-[1100px] ">
+      <div class="bg-[#ecf4f4] md:w-[800px] md:h-[750px] w-[600px]" >
           <div data-aos="zoom-out">
-          <img class="md:h-[700px] md:ml-[290px] md:w-[650px] md:-mt-0 ml-10"
+          <img class="md:h-[700px] md:ml-[290px] md:w-[650px] md:-mt-0 ml-10 "
            src="./image/slider1.webp" alt="">
         </div>
          </div>
@@ -61,8 +61,8 @@
           <img class="md:h-[240px] md:w-[450px] w-[250px] md:mt-24 md:ml-[100px] ml-44 mt-4"
            src="./image/text-theme.webp" alt="">
           
-          <h1 class=" md:text-[45px] text-[30px] font-bold 
-          text-center justify-center md:mt-[-88px] md:ml-28 text-blue-950 -mt-16 ml-5"
+          <h1 class=" md:text-[45px] font-bold text-[30px]
+          text-center justify-center md:mt-[-88px] md:ml-28 text-blue-950 -mt-16 ml-40 md:w-[72%] w-full"
           >COSMETIC AND BEAUTY STORE</h1>
           <p class=" text-center justify-center md:text-[23px] text-gray-500 md:w-full w-[498px] text-[18px] ml-12 md:mt-0 mt-5">
             Discover our revitalizing beauty serum, crafted with nourishing <br>
@@ -72,37 +72,39 @@
               this serum leaves your complexion radiant and refreshed.</p>
               <button class="bg-yellow-400 rounded-3xl py-4 px-8 inline-block
               hover:bg-transparent hover:border-yellow-400 hover:text-pink-700
-              hover:border justify-between text-center font-bold md:ml-[200px] mt-8 w-[190px] ml-44">BUY NOW</button>
+              hover:border justify-between text-center font-bold md:ml-[300px] mt-8 w-[190px] ml-48">BUY NOW</button>
 
          </div>
       </div>
     </section>
     <!-- 3rd section -->
-    <section class="md:mx-auto ">
-    <h1 class="justify-center text-center font-bold md:text-[30px] text-[40px] mt-10">
+    <section class="md:mx-auto md:w-full w-[550px]">
+      <div>
+    <h1 class="justify-center text-center font-bold md:text-[30px] text-[29px] mt-10 md:ml-20 ml-10 w-full">
       Changers Your Beauty <br> Routine Now</h1>
-    <div class="md:flex flex-wrap md:flex-nowrap md:mt-16  p-10 gap-12 ml-16">
+    </div>
+    <div class="md:flex flex-wrap md:flex-nowrap md:mt-16  p-10 gap-12 ml-28 ">
       <div class="shadow-2xl bg-[#ded0f5] md:w-[210px] md:h-[220px] w-[350px] h-[170px]">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/6.webp" alt="">
       <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Natural</h3>
     </div>
-    <div class="shadow-2xl bg-[#d5f1d5] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+    <div class="shadow-2xl bg-[#d5f1d5] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-10">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/4.webp" alt="">
       <h3 class="text-center font-semibold text-[20px] mt-7">Face Skin</h3>
     </div>
-    <div class="shadow-2xl bg-[#f6d8fb]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+    <div class="shadow-2xl bg-[#f6d8fb]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-10">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/5.webp" alt="">
       <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Blusher</h3>
     </div>
-    <div class="shadow-2xl bg-[#f5d3d3] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+    <div class="shadow-2xl bg-[#f5d3d3] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-10">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/3.webp" alt="">
       <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Makeup</h3>
     </div>
-    <div class="shadow-2xl bg-[#d9f1fb] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+    <div class="shadow-2xl bg-[#d9f1fb] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0  mt-10">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/2.webp" alt="">
       <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Skin Care</h3>
     </div>
-    <div class="shadow-2xl bg-[#f7e1bd]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+    <div class="shadow-2xl bg-[#f7e1bd]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0  mt-10">
       <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/1.webp" alt="">
       <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Hare Care</h3>
     </div>
@@ -111,13 +113,13 @@
     </section>
 
     <!-- 4th section -->
-     <section class="md:mx-auto md:h-[650px] md:mt-32 mt-16">
-      <div class="md:flex flex-wrap md:flex-nowrap">
+     <section class="md:mx-auto md:h-[650px] md:mt-32 mt-16 md:w-full w-[580px]">
+      <div class="md:flex flex-wrap md:flex-nowrap ">
         <div class="ml-10" data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
           <h3 class="text-[22px] font-serif">Who we Are</h3>
-          <h1 class="text-[40px] font-semibold">Best Selling Aesthetician Skincare <br> Brands</h1>
+          <h1 class="md:text-[40px] text-[30px] font-semibold">Best Selling Aesthetician Skincare <br> Brands</h1>
           <p class="text-[20px] text-gray-500">Nullam euismod purus quis blandit eleifend.
             Nullam egestas, diam ut ornare ultrices,<br>
             nibh metus feugiat ante, id sclerisque ague est.</p>
@@ -146,7 +148,7 @@
         </div>
         <div>
           <div class="carousel md:w-[700px] md:h-[500px] md:ml-20 ml-10 md:mt-0 mt-8">
-            <div id="slide1" class="carousel-item relative w-full  ">
+            <div id="slide1" class="carousel-item relative w-[550px] md:w-full ">
               <img
                 src="./image/elegant-minimalist-cosmetic-skincare-product-packaging-mockups_1278346-22157.jpg"
                 class="w-full" />
@@ -188,12 +190,12 @@
      </section>
 
      <!-- 5th section -->
-      <section class=" container md:w-full md:h-[750px]  mx-auto h-[1700px] md:mt-0 mt-20">
+      <section class=" container md:w-full md:h-[750px]  mx-auto h-[1800px] md:mt-0 mt-24 w-[500px] md:ml-0 ml-5">
         <div class="justify-center text-center md:w-full">
-          <h2 class="md:text-[20px] text-[21px] font-mono md:ml-0 ml-8">Branded Cosmetics</h2>
-          <h1 class="text-[38px] font-bold text-blue-950 md:ml-0 ml-8">New offers on Store</h1>
+          <h2 class="md:text-[20px] text-[21px] font-mono md:ml-0 ml-10">Branded Cosmetics</h2>
+          <h1 class="text-[38px] font-bold text-blue-950 md:ml-0 ml-10">New offers on Store</h1>
         </div>
-        <div class="md:flex flex-wrap md:flex-nowrap md:ml-24 gap-20 p-5 mt-10 md:h-0 h-[600px] ml-14">
+        <div class="md:flex flex-wrap md:flex-nowrap md:ml-24 gap-20 p-5 mt-10 md:h-0 h-[600px] ml-14 md:w-full w-[500px]">
           <div class="card card-compact bg-base-100 md:w-96 shadow-xl md:h-[480px] ">
             <figure>
               <img
@@ -240,31 +242,34 @@
       </section>
  
       <!-- 6th section -->
-        <section class=" container md:mx-auto md:h-[950px] font-bold text-[40px] text-blue-950 ">
+        <section class=" container md:mx-auto md:h-[950px] font-bold text-[40px] text-blue-950 md:w-full w-[570px] md:mt-0 mt-12">
           <div class="justify-center text-center items-center " data-aos="flip-right">
             <img class="mx-auto " src="./image/landing-sinlge-10.png" alt="">
             <h1 class="-mt-10">Our New Collection For You</h1>
           </div>
       <div class="card lg:card-side bg-base-100 shadow-xl md:w-[1400px] mx-auto md:mt-16 mt-9 ">
-        <figure class="md:w-[800px] w-[580px] md:h-[600px]">
+        <figure class="md:w-[800px] w-[590px] md:h-[610px] md:ml-0 ml-4">
           <iframe width="1519" height="561" src="https://www.youtube.com/embed/v17l9lz73JY" title="Éclat Vitamin 
           C Serum - Promo Video - Made in Blender" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
            web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           
         </figure>
-        <div class="card-body md:w-[80px] w-[60px] md:h-0 h-[724px]">
-          <h1 class="card-title md:text-[35px] text-[30px]">New Serum is released!</h1>
-          <p class="text-[23px] text-gray-500 md:w-full w-[470px] justify-center items-center">Serum therapy provides immediate immunity by delivering 
-            antibodies directly to the bloodstream, helping to fight 
-            infections rapidly. It can be effective in treating specific
-            diseases, such as snake bites or certain viral infections,
-             where quick action is crucial. Additionally, serum therap
-              can enhance recovery by neutralizing toxins produced by
-               pathogens. It is often used in conjunction with vaccines 
-               to boost the body’s immune response. Finally, modern
-                serums are also employed in immunotherapy for cancer, 
-                improving treatment outcomes and patient survival rates.</p>
+        <div class="card-body md:w-[80px] w-[480px] md:h-0 h-[744px] ">
+          <h1 class="card-title md:text-[35px] text-[35px] md:pt-0 pt-4">New Serum is released!</h1>
+          <p class="md:text-[25px] text-gray-500 md:w-full w-[560px] justify-center items-center text-[26px] md:mt-0 mt-5">
+            Serum therapy provide immediate immunit by 
+            delivering antibodies directly to the bloodstream,
+            helping to fight infections rapidly. It can be 
+            effective in treating specificdiseases, such as
+            snake bites or certain viral infections,where
+            quick action is crucial. Additionally, serum 
+            therapcan enhance recovery by neutralizing 
+            toxins produced by pathogens. It is often used 
+            in conjunction with vaccines to boost the body
+            immune response. Finally, moder serums are also
+            employed in immunotherapy for cancer,improving 
+            treatment outcomes and patient survival rates.</p>
           <div class="card-actions justify-center md:mt-0 mt-4">
             <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-pink-700 font-bold text-white
             md:ml-0 ml-40 md:w-[150px] w-[120px]  h-[50px]  text-[15px]">Learn More</button>
@@ -275,15 +280,15 @@
 
     
     <!-- 9th area -->
-    <section class="md:h-[550px] h-[1100px]">
+    <section class="md:h-[550px] h-[1100px] md:w-full w-[500px]">
       <div>
       <img  src="./image/page-header-text1.webp"
-       class="md:h-[160px] md:w-[300px] md:mt-24 md:ml-[680px] ml-20 mt-20" alt="">
+       class="md:h-[160px] md:w-[300px] md:mt-24 md:ml-[680px] ml-20 mt-20 h-[140px]" alt="">
       </div>
       <div data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500">
-      <h2 class="justify-center text-center md:text-[40px] font-bold text-blue- md:-mt-20 -mt-20
+      <h2 class="justify-center text-center md:text-[40px] font-bold text-blue- md:-mt-20 -mt-16
          text-blue-950 md:ml-0 ml-14 text-[35px]"> Why Shop With Glowing?</h2>
     </div>
       <div class="md:flex flex-wrap md:flex-nowrap mt-16 justify-center items-center">
@@ -309,17 +314,16 @@
 
       </section>
     <!-- 7th section -->
-    <section class="container mx-auto md:h-[1100px] md:mt-20 mt-28">
-      <div class="justify-center items-center text-center">
+    <section class="container mx-auto md:h-[1100px] md:mt-20 mt-28 md:w-full w-[550px] md:ml-7 ml-10">
+      <div class="justify-center items-center text-center md:w-full w-[550px]">
       <h5 class="text-[23px] -mt-5">Organic is the way to go</h5>
       <h1 class="text-[40px] font-extrabold text-blue-950">New & Trending Products</h1>
       </div>
-      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-16">
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 shadow-xl hover:scale-125">
+      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-16 ">
+        <div class="card bg-base-100 md:w-96 w-[410px] md:ml-0 ml-20 shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin3.jpg"
-              alt="Shoes" />
+              src="./image/skin3.jpg" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -327,11 +331,10 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-9 shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[430px] md:ml-0 ml-20 md:mt-0 mt-9 shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin4.jpg" class="h-[290px]"
-              alt="Shoes" />
+              src="./image/skin4.jpg" class="h-[290px]" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -339,11 +342,10 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin6.jpg" class="h-[290px]"
-              alt="Shoes" />
+              src="./image/skin6.jpg" class="h-[290px]"/>
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -351,11 +353,10 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin44.jpg" class="h-[290px]"
-              alt="Shoes" />
+              src="./image/skin44.jpg" class="h-[290px]" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -363,11 +364,10 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[410px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin.jpg"
-              alt="Shoes" />
+              src="./image/skin.jpg"/>
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -377,35 +377,21 @@
         </div>
        
       </div>
-      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-8">
+      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-8 md:w-full w-[550px]">
         <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin5.jpg"
-              alt="Shoes" />
+              src="./image/skin5.jpg" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
               <button class="btn btn-primary">Buy Now</button>
             </div>
           </div>
-        </div> <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        </div> <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin7.jpg"
-              alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
-          <figure>
-            <img
-              src="./image/white-glass-cosmetic-jar-with-isolated-lid-white-background-1_1134599-11643.jpg"
-              alt="Shoes" />
+              src="./image/skin7.jpg" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -413,11 +399,10 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-              src="./image/skin8.jpg"
-              alt="Shoes" />
+              src="./image/white-glass-cosmetic-jar-with-isolated-lid-white-background-1_1134599-11643.jpg" />
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -425,11 +410,21 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+        <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
           <figure>
             <img
-            src="./image/skin22.jpg" class="h-[290px]"
-            alt="Shoes" />
+              src="./image/skin8.jpg" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[420px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+            src="./image/skin22.jpg" class="h-[290px]"/>
           </figure>
           <div class="card-body">
             <div class="card-actions justify-end">
@@ -442,8 +437,8 @@
 
     <!-- 8th area -->
 
-    <section class="mx-auto md:h-[600px] bg-[#f1eadf] mt-20 h-[1600px]">
-        <div class="md:flex flex-wrap md:flex-nowrap w-full mt-10">
+    <section class="mx-auto md:h-[600px] bg-[#f1eadf] mt-20 h-[1520px] md:w-full w-[640px]">
+        <div class="md:flex flex-wrap md:flex-nowrap md:w-full w-[640px] mt-10">
           <img class="md:w-[480px] gap-5" src="./image/mirror2.avif" alt="">
           <div class="md:w-[800px] mt-20" data-aos="fade-down"
           data-aos-easing="linear"
@@ -467,13 +462,13 @@
               </div>
             </div>
         </div>
-        <img class="md:w-[400px] md:h-[600px]" src="./image/about-1.jpg" alt="">
+        <img class="md:w-[400px] md:h-[600px] md:mt-0 mt-5" src="./image/about-1.jpg" alt="">
         </div>
 
     </section>
 
       <!-- 10th area -->
-       <section class="mx-auto md:h-[500px] md:mt-24 mt-10 h-[400px]">
+       <section class="mx-auto md:h-[500px] md:mt-24 mt-10 h-[400px] md:w-full w-[640px]">
         <div class="mx-auto md:w-[1400px] md:h-[400px] bg-[#dff1e3]">
           <div>
           <h2 class="text-[25px] text-center font-mono pt-12">
@@ -497,7 +492,7 @@
         </section>
 
         <!-- 11th section -->
-          <section class="md:mx-auto md:h-[350px] md:w-full container h-[250px] md:mt-0 mt-20">
+          <section class="md:mx-auto md:h-[350px] container h-[250px] md:mt-0 mt-20 md:w-full w-[640px]">
             <footer class="footer bg-base-200 text-base-content md:h-[350px]  md:w-full md:p-10 p-14 bg-[#e1e3e5]">
               <div class="md:mt-10 mt-5">
               <img src="./image/logo.webp" alt="">
@@ -506,7 +501,7 @@
               </h4>
             </div>
               <nav>
-                <h6 class="footer-title font-bold text-[30px] text-blue-950 md:mt-20 md:-ml-10">Information</h6>
+                <h6 class="footer-title font-bold text-[30px] text-blue-950 md:mt-20 md:-ml-10 ">Information</h6>
                 <a class="link link-hover text-[20px] font-medium">About us</a>
                 <a class="link link-hover text-[20px] font-medium">Contact</a>
                 <a class="link link-hover text-[20px] font-medium">Jobs</a>

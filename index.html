@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./library/font_awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./library/font_awesome/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- header -->
+   
+  <!-- header -->
+  <header class="flex justify-around items-center bg-white h-28 w-full mx-auto">
+    <img src="./image/logo.webp" alt="">
+    <nav>
+      <ul class="text-2xl font-xs gap-10 leading-20 hidden md:flex font-serif">
+        <li class="hover:text-pink-600"><a href="#">HOME</a></li>
+        <li  class="hover:text-pink-600"><a href="#">SHOP</a></li>
+        <li  class="hover:text-pink-600"><a href="#">ABOUT</a></li>
+        <li  class="hover:text-pink-600"><a href="#">BLOG</a></li>
+        <li  class="hover:text-pink-600"><a href="#">CONTACT</a></li>
+      </ul>
+     </nav>
+     <div>
+      <div class="flex justify-between gap-4">
+        <i class="fa fa-search text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
+        <i class="fa fa-user-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
+        <i class="fa fa-star-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
+        <i class="fa fa-envelope-o text-[25px] px-1 md:mt-0 mt-4" aria-hidden="true"></i>
+      <div class="dropdown dropdown-end block md:hidden">
+        <div tabindex="0" role="button" class="btn m-1"><i class="fa fa-bars md:ml-0 ml-5 " aria-hidden="true"></i></div>
+        <ul tabindex="0" class="dropdown-content font-bold menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow absolute right-0">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+     </div>
+     </div>
+
+  </header>
+  <!-- hero area -->
+   <section class="md:mx-auto">
+    <div class="md:flex flex-wrap md:flex-nowrap md:w-full md:h-[800px]  h-[1000px]">
+      <div class="bg-[#ecf4f4] md:w-[800px] md:h-[750px]" >
+          <div data-aos="zoom-out">
+          <img class="md:h-[700px] md:ml-[290px] md:w-[650px] md:-mt-0 ml-10"
+           src="./image/slider1.webp" alt="">
+        </div>
+         </div>
+         <div  data-aos="flip-left"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
+          <img class="md:h-[240px] md:w-[450px] w-[250px] md:mt-24 md:ml-[100px] ml-44 mt-4"
+           src="./image/text-theme.webp" alt="">
+          
+          <h1 class=" md:text-[45px] text-[30px] font-bold 
+          text-center justify-center md:mt-[-88px] md:ml-28 text-blue-950 -mt-16 ml-5"
+          >COSMETIC AND BEAUTY STORE</h1>
+          <p class=" text-center justify-center md:text-[23px] text-gray-500 md:w-full w-[498px] text-[18px] ml-12 md:mt-0 mt-5">
+            Discover our revitalizing beauty serum, crafted with nourishing <br>
+            botanicals to hydrate and rejuvenate your skin. Its lightweight <br>
+             formula absorbs quickly, delivering powerful antioxidants to <br>
+             reduce the appearance of fine lines. Perfect for all skin types,<br>
+              this serum leaves your complexion radiant and refreshed.</p>
+              <button class="bg-yellow-400 rounded-3xl py-4 px-8 inline-block
+              hover:bg-transparent hover:border-yellow-400 hover:text-pink-700
+              hover:border justify-between text-center font-bold md:ml-[200px] mt-8 w-[190px] ml-44">BUY NOW</button>
+
+         </div>
+      </div>
+    </section>
+    <!-- 3rd section -->
+    <section class="md:mx-auto ">
+    <h1 class="justify-center text-center font-bold md:text-[30px] text-[40px] mt-10">
+      Changers Your Beauty <br> Routine Now</h1>
+    <div class="md:flex flex-wrap md:flex-nowrap md:mt-16  p-10 gap-12 ml-16">
+      <div class="shadow-2xl bg-[#ded0f5] md:w-[210px] md:h-[220px] w-[350px] h-[170px]">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/6.webp" alt="">
+      <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Natural</h3>
+    </div>
+    <div class="shadow-2xl bg-[#d5f1d5] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/4.webp" alt="">
+      <h3 class="text-center font-semibold text-[20px] mt-7">Face Skin</h3>
+    </div>
+    <div class="shadow-2xl bg-[#f6d8fb]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/5.webp" alt="">
+      <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Blusher</h3>
+    </div>
+    <div class="shadow-2xl bg-[#f5d3d3] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/3.webp" alt="">
+      <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Makeup</h3>
+    </div>
+    <div class="shadow-2xl bg-[#d9f1fb] md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/2.webp" alt="">
+      <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Skin Care</h3>
+    </div>
+    <div class="shadow-2xl bg-[#f7e1bd]  md:w-[210px] md:h-[220px] w-[350px] h-[170px] md:mt-0 mt-6">
+      <img class="md:mt-7 pt-5 md:ml-16 ml-32 hover:scale-75" src="./image/1.webp" alt="">
+      <h3 class="text-center font-semibold md:text-[20px] text-[25px] md:mt-7 mt-3">Hare Care</h3>
+    </div>
+    </div>
+    
+    </section>
+
+    <!-- 4th section -->
+     <section class="md:mx-auto md:h-[650px] md:mt-32 mt-16">
+      <div class="md:flex flex-wrap md:flex-nowrap">
+        <div class="ml-10" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <h3 class="text-[22px] font-serif">Who we Are</h3>
+          <h1 class="text-[40px] font-semibold">Best Selling Aesthetician Skincare <br> Brands</h1>
+          <p class="text-[20px] text-gray-500">Nullam euismod purus quis blandit eleifend.
+            Nullam egestas, diam ut ornare ultrices,<br>
+            nibh metus feugiat ante, id sclerisque ague est.</p>
+            <div class="md:flex flex-wrap md:flex-nowrap mt-9">
+              <i class="fa fa-leaf text-[42px] text-[#916228] mt-4" aria-hidden="true"></i>
+              <div>
+                <h3 class="font-bold text-[20px] ml-5">Premium Natural Ingredients</h3>
+                <p class="text-[17px] font-semibold ml-5">Morbi pellentesque sem ac nulla molestie euismod.</p>
+              </div>
+            </div>
+            <div class="md:flex flex-wrap md:flex-nowrap mt-5">
+              <i class="fa fa-link text-[42px] text-[#916228] mt-2" aria-hidden="true"></i>
+              <div>
+                <h3  class="font-bold text-[20px] ml-5">High-quality Raw Materials</h3>
+                <p class="text-[17px] font-semibold ml-5">Gorbi pellentesque sem ac nulla molestie euismod.</p>
+              </div>
+            </div>
+            <div class="md:flex flex-wrap md:flex-nowrap mt-5">
+              <i class="fa fa-pagelines text-[42px] text-[#916228] mt-2" aria-hidden="true"></i>
+              <div>
+                <h3 class="font-bold text-[20px] ml-5">End-to-end Beauty Solution</h3>
+                <p class="text-[17px] font-semibold ml-5">Duis eleifend ipsum a justo vehicula, ut vestibulum sem <br> volutpat. 
+                  Donec at aliquam purus. Mauris.</p>
+              </div>
+            </div>
+        </div>
+        <div>
+          <div class="carousel md:w-[700px] md:h-[500px] md:ml-20 ml-10 md:mt-0 mt-8">
+            <div id="slide1" class="carousel-item relative w-full  ">
+              <img
+                src="./image/elegant-minimalist-cosmetic-skincare-product-packaging-mockups_1278346-22157.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="./image/beautifully-designed-skin-care-advertisement_1008415-69959.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="./image/light-blue-facial-cleanser-water-surface-with-fresh-flowers-plants_1255146-8520.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="./image/premium-skincare-line-display-sleek-blue-silver-bottles_1203783-1484.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- 5th section -->
+      <section class=" container md:w-full md:h-[750px]  mx-auto h-[1700px] md:mt-0 mt-20">
+        <div class="justify-center text-center md:w-full">
+          <h2 class="md:text-[20px] text-[21px] font-mono md:ml-0 ml-8">Branded Cosmetics</h2>
+          <h1 class="text-[38px] font-bold text-blue-950 md:ml-0 ml-8">New offers on Store</h1>
+        </div>
+        <div class="md:flex flex-wrap md:flex-nowrap md:ml-24 gap-20 p-5 mt-10 md:h-0 h-[600px] ml-14">
+          <div class="card card-compact bg-base-100 md:w-96 shadow-xl md:h-[480px] ">
+            <figure>
+              <img
+                src="./image/new-skincare-cosmetic-beauty-product-text-combo-pack-30-off-template-ai-generated_1092559-16616.avif"
+                  class="hover:scale-105" alt="" />
+            </figure>
+            <div class="card-body">
+              <div class="card-actions justify-center mt-2">
+                <button class="bg-[#945dc1] rounded-2xl py-4 px-8 
+                hover:bg-transparent text-white hover:border-yellow-400 hover:text-pink-700
+                hover:border text-center font-bold w-36 text-[18px]">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 md:w-[400px] shadow-xl md:h-[480px] md:mt-0 mt-10 ">
+            <figure>
+              <img
+                src="./image/new-skincare-cosmetic-beauty-product-text-combo-pack-30-off-template-ai-generated_1092559-16678.avif"
+                class="h-[380px] w-full hover:scale-105" />
+            </figure>
+            <div class="card-body">
+              <div class="card-actions justify-center">
+                <button class="bg-[#945dc1] rounded-2xl py-4 px-8 
+                hover:bg-transparent text-white hover:border-yellow-400 hover:text-pink-700
+                hover:border text-center font-bold w-36 text-[18px]">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 md:w-96 shadow-xl md:h-[480px] md:mt-0 mt-10">
+            <figure>
+              <img
+                src="./image/new-skincare-cosmetic-beauty-product-text-combo-pack-30-off-template-ai-generated_1092559-16766.avif"
+                class="hover:scale-105" alt="" />
+            </figure>
+            <div class="card-body">
+              <div class="card-actions justify-center">
+                <button class="bg-[#945dc1] rounded-2xl py-4 px-8 
+                hover:bg-transparent text-white hover:border-yellow-400 hover:text-pink-700
+                hover:border text-center font-bold w-36 text-[18px]"">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- 6th section -->
+        <section class=" container md:mx-auto md:h-[950px] font-bold text-[40px] text-blue-950 ">
+          <div class="justify-center text-center items-center " data-aos="flip-right">
+            <img class="mx-auto " src="./image/landing-sinlge-10.png" alt="">
+            <h1 class="-mt-10">Our New Collection For You</h1>
+          </div>
+      <div class="card lg:card-side bg-base-100 shadow-xl md:w-[1400px] mx-auto md:mt-16 mt-9 ">
+        <figure class="md:w-[800px] w-[580px] md:h-[600px]">
+          <iframe width="1519" height="561" src="https://www.youtube.com/embed/v17l9lz73JY" title="Éclat Vitamin 
+          C Serum - Promo Video - Made in Blender" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+           web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
+        </figure>
+        <div class="card-body md:w-[80px] w-[60px] md:h-0 h-[724px]">
+          <h1 class="card-title md:text-[35px] text-[30px]">New Serum is released!</h1>
+          <p class="text-[23px] text-gray-500 md:w-full w-[470px] justify-center items-center">Serum therapy provides immediate immunity by delivering 
+            antibodies directly to the bloodstream, helping to fight 
+            infections rapidly. It can be effective in treating specific
+            diseases, such as snake bites or certain viral infections,
+             where quick action is crucial. Additionally, serum therap
+              can enhance recovery by neutralizing toxins produced by
+               pathogens. It is often used in conjunction with vaccines 
+               to boost the body’s immune response. Finally, modern
+                serums are also employed in immunotherapy for cancer, 
+                improving treatment outcomes and patient survival rates.</p>
+          <div class="card-actions justify-center md:mt-0 mt-4">
+            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-pink-700 font-bold text-white
+            md:ml-0 ml-40 md:w-[150px] w-[120px]  h-[50px]  text-[15px]">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- 9th area -->
+    <section class="md:h-[550px] h-[1100px]">
+      <div>
+      <img  src="./image/page-header-text1.webp"
+       class="md:h-[160px] md:w-[300px] md:mt-24 md:ml-[680px] ml-20 mt-20" alt="">
+      </div>
+      <div data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+      <h2 class="justify-center text-center md:text-[40px] font-bold text-blue- md:-mt-20 -mt-20
+         text-blue-950 md:ml-0 ml-14 text-[35px]"> Why Shop With Glowing?</h2>
+    </div>
+      <div class="md:flex flex-wrap md:flex-nowrap mt-16 justify-center items-center">
+        <div class="md:w-[480px] hover:scale-125 md:ml-0 ml-20 md:mt-0 w-[470px] mt-6">
+          <img class="ml-36 md:mt-0 mt-10" src="./image/image-box-33.png " alt="">
+          <h3 class="text-[25px] font-semibold ml-24 mt-4 text-blue-950">Guaranteed PURE</h3>
+          <p class="text-[20px] text-gray-500">All Grace formulations adhere to strict purity
+          standards and will never contain harsh or toxic ingredients</p>
+        </div>
+        <div class="md:w-[480px] hover:scale-125 md:ml-0 ml-20 md:mt-0 mt-10 w-[470px]">
+          <img class="ml-36" src="./image/image-box-34.png" alt="">
+          <h3 class="text-[25px] font-semibold ml-16 mt-2 text-blue-950">Completely Cruelty-Free</h3>
+          <p class="text-[20px] text-gray-500">All Grace formulations adhere to strict purity 
+            standards and will never contain harsh or toxic ingredients</p>
+        </div>
+        <div class="md:w-[480px] hover:scale-125 md:ml-0 ml-20 md:mt-0 mt-10 w-[470px]">
+          <img class="w-[100px] ml-36" src="./image/image-box-03.jpg" alt="">
+          <h3 class="text-[25px] font-semibold mt-4 ml-20 text-blue-950">Ingredient Sourcing</h3>
+          <p class="text-[20px] text-gray-500">All Grace formulations adhere to strict purity 
+            standards and will never contain harsh or toxic ingredients</p>
+        </div> 
+      </div>
+
+      </section>
+    <!-- 7th section -->
+    <section class="container mx-auto md:h-[1100px] md:mt-20 mt-28">
+      <div class="justify-center items-center text-center">
+      <h5 class="text-[23px] -mt-5">Organic is the way to go</h5>
+      <h1 class="text-[40px] font-extrabold text-blue-950">New & Trending Products</h1>
+      </div>
+      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-16">
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin3.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-9 shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin4.jpg" class="h-[290px]"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin6.jpg" class="h-[290px]"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin44.jpg" class="h-[290px]"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="md:flex flex-wrap md:flex-nowrap gap-5 mt-8">
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin5.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div> <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin7.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/white-glass-cosmetic-jar-with-isolated-lid-white-background-1_1134599-11643.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+              src="./image/skin8.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-96 w-[400px] md:ml-0 ml-20 md:mt-0 mt-12  shadow-xl hover:scale-125">
+          <figure>
+            <img
+            src="./image/skin22.jpg" class="h-[290px]"
+            alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8th area -->
+
+    <section class="mx-auto md:h-[600px] bg-[#f1eadf] mt-20 h-[1600px]">
+        <div class="md:flex flex-wrap md:flex-nowrap w-full mt-10">
+          <img class="md:w-[480px] gap-5" src="./image/mirror2.avif" alt="">
+          <div class="md:w-[800px] mt-20" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+          <h4 class="text-[25px] text-center">Intense Hydration</h4>
+          <h1 class="text-[45px] text-center font-bold">Guaranteed Result In 2 Weeks</h1>
+          <p class="text-[23px] text-gray-500 ml-3">Tulla at volutpat diam ut venenatis tellus in. Tellus 
+            molestie nunc non blandit massa enim nec dui nunc.
+            Elementum eu facilisis sed odio morbi quis commodo
+            odio aenean. Ultrices mi tempus imperdiet nulla malesuada.</p>
+            <div class="flex mt-16 gap-28 ml-12">
+              <div>
+                <h3 class="text-[30px] font-semibold ">Opening Hours</h3>
+                <p class="md:text-[20px] mt-5">Mon - Fri : 08:30 - 20:00</p>
+                <p class="md:text-[20px] mt-5">Sat & Sun : 09:30 - 21:30</p>
+              </div>
+              <div>
+                <h3 class="text-[30px] font-semibold ">Reach Us</h3>
+                <p class="md:text-[20px] mt-5">info@example.com</p>
+                <p class="md:text-[20px] mt-5">+000 123 456789</p>
+              </div>
+            </div>
+        </div>
+        <img class="md:w-[400px] md:h-[600px]" src="./image/about-1.jpg" alt="">
+        </div>
+
+    </section>
+
+      <!-- 10th area -->
+       <section class="mx-auto md:h-[500px] md:mt-24 mt-10 h-[400px]">
+        <div class="mx-auto md:w-[1400px] md:h-[400px] bg-[#dff1e3]">
+          <div>
+          <h2 class="text-[25px] text-center font-mono pt-12">
+            "Amazing product. The results are so transformative in texture and <br>
+            my face feels plump and healthy. Highly recommend!"
+          </h2>
+        </div>
+          <marquee scrll="10" direction="left flex " >
+            <div class="flex  mt-16 ">
+            <img src="./image/clinet-logo-01.png" alt="">
+            <img src="./image/clinet-logo-02.png" alt="">
+            <img src="./image/clinet-logo-03 (1).png" alt="">
+            <img src="./image/clinet-logo-03.png" alt="">
+            <img src="./image/clinet-logo-04.png" alt="">
+            <img src="./image/clinet-logo-05.png" alt="">
+            <img src="./image/clinet-logo-06.png" alt="">
+          </div>
+          </marquee>
+          
+        </div>
+        </section>
+
+        <!-- 11th section -->
+          <section class="md:mx-auto md:h-[350px] md:w-full container h-[250px] md:mt-0 mt-20">
+            <footer class="footer bg-base-200 text-base-content md:h-[350px]  md:w-full md:p-10 p-14 bg-[#e1e3e5]">
+              <div class="md:mt-10 mt-5">
+              <img src="./image/logo.webp" alt="">
+              <h4 class="text-[22px] font-sans md:w-[400px] text-gray-500">Nam at lectus urna duis convallis convallis tellus.
+                  Praesent elementum facilisis leo vel fringilla est ullamcorper eget. 
+              </h4>
+            </div>
+              <nav>
+                <h6 class="footer-title font-bold text-[30px] text-blue-950 md:mt-20 md:-ml-10">Information</h6>
+                <a class="link link-hover text-[20px] font-medium">About us</a>
+                <a class="link link-hover text-[20px] font-medium">Contact</a>
+                <a class="link link-hover text-[20px] font-medium">Jobs</a>
+                <a class="link link-hover text-[20px] font-medium">Press kit</a>
+              </nav>
+              <nav>
+                <h6 class="footer-title font-bold text-[30px] text-blue-950 mt-20 -ml-3">Services</h6>
+                <a class="link link-hover text-[20px] font-medium">Shipping & Return</a>
+                <a class="link link-hover text-[20px] font-medium">Track Order</a>
+                <a class="link link-hover text-[20px] font-medium">Product Returns</a>
+                <a class="link link-hover text-[20px] font-medium">Checkout</a>
+              </nav>
+              <form>
+                <h6 class="footer-title font-bold text-[30px] text-blue-950 mt-10">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text text-[20px] font-medium top-8">Enter your email address</span>
+                  </label>
+                  <div class="join">
+                    <input
+                      type="text"
+                      placeholder="username@site.com"
+                      class="input input-bordered join-item" />
+                    <button class="btn bg-pink-600 join-item text-white">Subscribe</button>
+                  </div>
+                  <h6 class="text-[30px] text-blue-950 mt-5">Social Info</h6>
+                  <div class="gap-6 mt-4 flex text-[35px]">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </div>
+                </fieldset>
+              </form>
+            </footer>
+          </section>
+
+  
+   
+    
+     <script>
+      AOS.init();
+    </script>
+</body>
+</html>
